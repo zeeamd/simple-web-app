@@ -21,8 +21,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mitre</groupId>
-	<artifactId>testwebapp</artifactId>
+	<artifactId>simple-web-app</artifactId>
 	<packaging>war</packaging>
+	<version>1.3.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.8</java-version>
 		<mitreid-connect-version>1.3.1</mitreid-connect-version>
@@ -205,6 +206,6 @@
 			  </configuration>
 			</plugin>
 		</plugins>
+		<finalname>testwebapp</finalname>
 	</build>
-	<name>testwebapp</name>
 </project>
